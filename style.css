@@ -1,0 +1,107 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+   
+}
+h1{
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.data{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid gray;
+    margin-top: 170px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.data div{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.data input{
+    padding: 5px;
+    width: 40px;
+    color: gray;
+    box-shadow: 2px 2px 5px gray;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+table{
+    padding-top: 50px;
+    padding-left: 20px;
+    color: rgb(77, 75, 75);
+}
+
+td{
+    padding: 10px;
+}
+
+.set-btn{
+    padding: 5px;
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 15px;
+    border: 2px solid rgb(95, 94, 94);
+    border-radius: 3px;
+    box-shadow: -1px -1px 2px gray;
+    font-size: 16px;
+    color: rgb(100, 98, 98);
+    outline: none;
+}
+
+.set-btn:hover{
+    background-color: rgb(225, 222, 222);
+    color: rgb(68, 67, 67);
+}
+.set-btn:active{
+    border: none;
+}
+
+.hid{
+    display: none;
+}
+
+.timer{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid gray;
+    margin-top: 170px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 10px gray;
+}
+.timer h1{
+    padding: 15px;
+}
+.headings{
+    margin-left: 50px;
+}
+
+.ssr-btn{
+    margin-left: 55px;
+    
+}
+
+.ssr-btn button{
+    padding: 3px;
+    width: 60px;
+    margin-top: 8px;
+    border: 2px solid rgb(95, 94, 94);
+    border-radius: 3px;
+    box-shadow: -1px -1px 12px gray;
+    font-size: 16px;
+    color: rgb(100, 98, 98);
+    outline: none;
+}
